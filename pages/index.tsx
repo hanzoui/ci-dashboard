@@ -17,7 +17,7 @@ import analytic from '../global/mixpanel'
 import { useGetBranch, useGetGitcommit } from '../src/api/generated'
 import { StatusToColor, StatusToHumanText } from './workflow/[id]'
 
-const DEFAULT_REPO = 'comfyanonymous/ComfyUI'
+const DEFAULT_REPO = 'hanzoai/studio'
 
 function GitCommitsList() {
     const [currentPage, setCurrentPage] = React.useState(1)

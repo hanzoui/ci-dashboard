@@ -55,7 +55,7 @@ export type PostUploadArtifactBody = {
   branch_name: string;
   /** The name of the bucket where the output files are stored */
   bucket_name?: string;
-  /** The path to ComfyUI logs. eg. gs://bucket-name/logs */
+  /** The path to Hanzo Studio logs. eg. gs://bucket-name/logs */
   comfy_logs_gcs_path?: string;
   /** The flags used in the comfy run */
   comfy_run_flags?: string;
@@ -2610,7 +2610,7 @@ export const useSecurityScan = <TData = Awaited<ReturnType<typeof securityScan>>
 
 
 /**
- * @summary Receive artifacts (output files) from the ComfyUI GitHub Action
+ * @summary Receive artifacts (output files) from the Hanzo Studio GitHub Action
  */
 export const postUploadArtifact = (
     postUploadArtifactBody: PostUploadArtifactBody,
@@ -2651,7 +2651,7 @@ const {mutation: mutationOptions, request: requestOptions} = options ?? {};
     export type PostUploadArtifactMutationError = void
 
     /**
- * @summary Receive artifacts (output files) from the ComfyUI GitHub Action
+ * @summary Receive artifacts (output files) from the Hanzo Studio GitHub Action
  */
 export const usePostUploadArtifact = <TError = void,
     TContext = unknown>(options?: { mutation?:UseMutationOptions<Awaited<ReturnType<typeof postUploadArtifact>>, TError,{data: PostUploadArtifactBody}, TContext>, request?: SecondParameter<typeof customInstance>}
