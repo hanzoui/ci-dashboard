@@ -12,7 +12,7 @@ export default function Layout({ children }: React.PropsWithChildren) {
                 <title>ComfyCI Dashboard</title>
                 <meta
                     name="description"
-                    content="ComfyCI Dashboard tests changes in ComfyUI by running workflows and custom nodes."
+                    content="ComfyCI Dashboard tests changes in Hanzo Studio by running workflows and custom nodes."
                 />
                 <meta
                     name="viewport"
@@ -80,7 +80,7 @@ export default function Layout({ children }: React.PropsWithChildren) {
                 />
                 <meta
                     property="og:description"
-                    content="ComfyCI Dashboard tests changes in ComfyUI by running workflows and custom nodes."
+                    content="ComfyCI Dashboard tests changes in Hanzo Studio by running workflows and custom nodes."
                 />
                 <meta
                     property="og:image"
@@ -106,7 +106,7 @@ export default function Layout({ children }: React.PropsWithChildren) {
                 />
                 <meta
                     name="twitter:description"
-                    content="ComfyCI Dashboard for testing changes in ComfyUI by running workflows and custom nodes."
+                    content="ComfyCI Dashboard for testing changes in Hanzo Studio by running workflows and custom nodes."
                 />
                 <meta
                     name="twitter:image"
@@ -114,11 +114,11 @@ export default function Layout({ children }: React.PropsWithChildren) {
                 />
                 <meta
                     name="twitter:site"
-                    content="@ComfyUI"
+                    content="@Hanzo Studio"
                 />
                 <meta
                     name="twitter:creator"
-                    content="@ComfyUI"
+                    content="@Hanzo Studio"
                 />
 
                 <ThemeModeScript />
